@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>curso de redes</title>
+    <link rel="stylesheet" href="css/hojadeestilos.css">
+</head>
+<body>
+   <header>
+       <div id="banner">
+           <figure>
+               <div id="imagenbanner"></div>
+           </figure>
+        </div>
+           <div id="menu">
+               <ul>
+                 <li class="pag-actual"><a href="#">Preguntas</a></li>
+                 <li> <a href="#">Inicio</a></li>
+                 <li> <a href="#">Topologia</a></li>
+                 <li><a href="#">Topologia</a></li>
+                 <li> <a href="#">Elementos</a></li>
+                 <li> <a href="#">Conexiones</a></li>
+                <ul>
+           </div>
+        </header>
+ <section>
+     <div id="contenedor">
+         <aaside>
+             <h2>Otros temas</h2>
+             <ul>
+                 <li><a href="#">Descripcion Basica</a></li>
+                 <li><a href="#">Clasificacion de las Redes</a></li>
+                 <li><a href="#">Componentes basicos de las Redes</a></li>
+                 <li><a href="#">Transporte y comunicacion</a></li>
+                 <Li><a href="#">Videos practicos</a></Li>
+            </ul>
+         </aaside>
+         <article>
+             <div class="contenido">
+                 <h2>curso de redes</h2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium cum repudiandae, enim dolor excepturi esse eos fuga nemo! Voluptas autem praesentium pariatur labore, et aspernatur nemo. Illo vel distinctio veritatis?
+        Blanditiis quo eius cupiditate eligendi commodi cum deleniti dolor maxime voluptate aspernatur eaque, voluptas facere hic, dignissimos quisquam assumenda? Totam odit provident odio consectetur veniam perspiciatis illo reiciendis sapiente quisquam.
+        Quibusdam nobis, exercitationem, nihil error nulla qui, ex dolorem alias placeat numquam modi! Blanditiis obcaecati voluptas fugit. Sequi fugit ipsum beatae fugiat vero doloribus voluptatem, ipsam harum, quaerat animi aliquid?
+        Voluptatem atque minus nisi, totam mollitia ea, officiis ab voluptatum soluta possimus dolorem eum? Vitae voluptatibus aut recusandae rerum. Blanditiis necessitatibus pariatur corporis adipisci labore debitis modi aliquid molestias et?
+        Culpa unde ratione corporis sequi impedit reiciendis magni quibusdam ut tempora. Amet reprehenderit omnis aliquid rem. Sed magnam officia eligendi laborum distinctio. Quisquam fuga illum sunt exercitationem. Enim, atque dolorem.
+   <p>
+       <img src="ims/redventi.jpg" alt="" width="200" height="200" class=alin-izq"/>
+ </section>
+<footer>
+    <p>Derechos reservados(C) 2015</p>
+    <p>pagina web diseñada por Josue David Aguilar</p>
+</footer>
+</body>
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #ff9a07 url(../ims/fondo.jpg)repeat;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color:#8f8f;
+    width: 100%;
+}
+header{
+    overflow: hidden;
+    width: 800px;
+    margin: 10px auto 5px auto;
+}
+header #banner{
+    width: 100x;
+    height: 150;
+}
+header #banner figure #imagenbanner{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    height: 350px;
+    background: url(../ims/pat.jpg);
+    border-radius: 10px; 
+}
+header #menu{
+    float: right;
+    padding: 5px 0;
+    width: 550px;
+}
+header #menu ul li{
+    list-style: none;
+    float: left;
+}
+header #menu ul li a{
+    display: block;
+    margin-left: 5px;
+    padding: 7px;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-weight:300;
+    color:white;
+}
+header #menu ul li a:hover, header #menu .pag-actual{
+    text-decoration: none;
+    background: #a0190a;
+    border-radius: 5px;
+    color: white;
+}
+section{
+    width: 100%;
+    overflow:hidden;
+    background: white;
+}
+section #contenedor{
+    overflow: hidden;
+    width: 800px;
+    margin: 0px auto 5px auto;
+}
+
+section #contenedor aaside{
+    float: left;
+    width: 220px;
+}
+section #contenedor aaside h2{
+    padding: 0px 0px 20px 20px;
+    color: black;
+    letter-spacing: -1px;
+    font-size: 2em;
+}
+section #contenedor aaside ul li{
+    list-style: none;
+    padding: 15px 0px;
+    border-top: 1px dashed #c0afa8;
+}
+section #contenedor aaside ul li a{
+    text-decoration: none;
+    color: #9e8076;
+}
+section #contenedor article{
+    float: right;
+    width: 570px;
+}
+section #contenedor article h2{
+    color: black;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding: 10px 5px;
+}
+section #contenedor article .contenido{
+    text-align:justify;
+    font-size: 16px;
+    padding: 5px;
+    line-height: 150%;
+}
+section #contenedor article .contenido .alin-izq{
+    float: left;
+    margin: 10px 10px 10px 10px;
+}
+footer{
+    margin:0 auto;
+    padding: 20px 0px;
+}
+footer p{
+    font-size: 16px;
+    color: #c5351e;
+    text-align: center;
+    line-height: 150%;
